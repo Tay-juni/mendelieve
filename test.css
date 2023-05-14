@@ -1,0 +1,128 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+table, td {
+    text-align: center;
+    border-radius: 2px;
+}
+table tr td p,h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+td {
+    padding-bottom: 0px;
+}
+.test_1 {
+    background-color: #e6929d;
+}
+.test_2 {
+    background-color: #bc6492;
+}
+.test-3 {
+    background-color: #f1cca7;
+}
+.test-4 {
+    background-color: #f29b85;
+}
+.test-5 { 
+    background-color: #8677ba;
+}
+.test-6 {
+    background-color: #90dac5;
+}
+.test-7 {
+    background-color: #78b0cf;
+}
+.test-8{
+    background-color: #ffeec5;
+}
+.test-9 {
+    background-color:#f3fac8;
+}
+.test-10 {
+    background-color: #b6e0ae;
+}
+
+img {
+   border-radius: 50%;
+    width: 100px;
+}
+.img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    margin-top: 30px;
+}
+.p1{
+    text-align: right;
+    float: right bottom ;
+}
+@media screen and (min-width: 1520px) {
+    table tr td{
+        font-size: 14px;
+      
+    }
+ 
+}
+@media screen and (max-width: 1340px) {
+    table tr td{
+        font-size: 12px;
+      
+    }
+ 
+}
+@media screen and (max-width: 1165px) {
+    table tr td{
+        font-size: 10px;
+      
+    }
+ 
+}
+@media screen and (max-width: 987px) {
+    table tr td{
+        font-size: 9px;
+      
+    }
+ 
+}
+@media screen and (max-width: 882px) {
+    table tr td{
+        font-size: 8px;
+      
+    }
+ 
+}
+@media screen and (max-width: 788px) {
+    table tr td{
+        font-size: 6px;
+      
+    }
+ 
+}
+@media screen and (max-width: 610px) {
+    table tr td{
+        font-size: 5px;
+        height: 10px;
+    }
+ 
+}
+@media screen and (max-width: 522px) {
+    table tr td{
+        font-size: 4px;
+    }
+ 
+}
+@media screen and (max-width: 427px) {
+    table tr td{
+        font-size: 3px;
+        height: 10px;
+    }
+ 
+} 
